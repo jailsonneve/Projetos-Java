@@ -25,17 +25,18 @@ Este repositório tem como objetivo reunir diversos projetos e exercícios feito
 ## 📁 Estrutura do Repositório
 
 ```bash
-Projetos-Java/
-├── AlgoritmosBasicos/
-├── ExerciciosFluxograma/
-├── ProjetosOrientadosAObjetos/
-├── funcoesPrincipais.java
+PROJETOS-JAVA/
+├── Projetos/
+│   └── AlgoritmosBasicos/
+│       ├── lista3/
+│       └── lista4/
+├── funcoes/
+│   └── funcoesPrincipais.java
+├── LICENSE
 └── README.md
 ```
 
 - `AlgoritmosBasicos/`: Implementações de algoritmos clássicos e estruturas básicas.
-- `ExerciciosFluxograma/`: Códigos baseados em fluxogramas acadêmicos.
-- `ProjetosOrientadosAObjetos/`: Aplicações com foco em POO.
 - `funcoesPrincipais.java`: Arquivo utilitário com funções de apoio para alguns projetos.
 
 ---
