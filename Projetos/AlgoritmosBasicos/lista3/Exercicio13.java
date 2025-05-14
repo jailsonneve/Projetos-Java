@@ -3,26 +3,27 @@ import funcoes.*;
 
 public class Exercicio13 {
     public static void main(String[] args) {
-        float peso, altura, imc;
+        double peso, altura, imc;
         String classificacao;
 
         funcoesPrincipais.imprimir("Digite o peso (kg):");
-        peso = funcoesPrincipais.lerFloat();
+        peso = funcoesPrincipais.lerDouble();
 
         funcoesPrincipais.imprimir("Digite a altura (m):");
-        altura = funcoesPrincipais.lerFloat();
+        altura = funcoesPrincipais.lerDouble();
 
-        imc = peso / (altura * altura);
+        // imc = peso / (altura * altura);
+        imc = peso / Math.pow(altura, 2);
 
-        if (imc <= 0.00185) {
+        if (imc < 18.5) {
             classificacao = "Abaixo do peso";
-        } else if (imc <= 0.00249) {
+        } else if (imc < 25) {
             classificacao = "Peso ideal";
-        } else if (imc <= 0.00299) {
+        } else if (imc < 30) {
             classificacao = "Peso em excesso";
-        } else if (imc <= 0.00349) {
+        } else if (imc < 35) {
             classificacao = "Obesidade Grau I";
-        } else if (imc <= 0.00399) {
+        } else if (imc < 40) {
             classificacao = "Obesidade Grau II (severa)";
         } else {
             classificacao = "Obesidade Grau III (mórbida)";

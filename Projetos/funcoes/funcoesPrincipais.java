@@ -10,7 +10,7 @@ public class funcoesPrincipais {
     }
 
     public static String lerTexto() {
-        batata.nextLine(); // limpa o buffer
+        batata.nextLine();
         String texto = batata.nextLine();
         return texto;
     }
