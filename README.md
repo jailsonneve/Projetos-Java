@@ -26,6 +26,12 @@ Este repositório tem como objetivo reunir diversos projetos e exercícios feito
 
 ```bash
 PROJETOS-JAVA/
+├── Engenharia de Software/
+│   └── Slides/
+│   └── Atividades/
+│      	└── 1Bim/
+│      	└── 2Bim/
+│      	└── 3Bim/
 ├── POO/
 │   └── Codigos de Exemplo/
 │   └── Slides/
