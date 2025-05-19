@@ -27,12 +27,12 @@ Este repositório tem como objetivo reunir diversos projetos e exercícios feito
 ```bash
 PROJETOS-JAVA/
 ├── POO/
-│   └── Atividades/
-│	└── 1Bim/
-│	└── 2Bim/
-│	└── 3Bim/
 │   └── Codigos de Exemplo/
 │   └── Slides/
+│   └── Atividades/
+│      	└── 1Bim/
+│      	└── 2Bim/
+│      	└── 3Bim/
 ├── Projetos/
 │   └── AlgoritmosBasicos/
 │       ├── lista3/
