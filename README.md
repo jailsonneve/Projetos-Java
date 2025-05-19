@@ -40,11 +40,11 @@ PROJETOS-JAVA/
 │      	└── 2Bim/
 │      	└── 3Bim/
 ├── Projetos/
+│   └── funcoes/
+│       └── funcoesPrincipais.java
 │   └── AlgoritmosBasicos/
 │       ├── lista3/
 │       └── lista4/
-├── funcoes/
-│   └── funcoesPrincipais.java
 ├── LICENSE
 └── README.md
 ```
