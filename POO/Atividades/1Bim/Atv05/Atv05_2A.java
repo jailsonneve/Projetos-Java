@@ -1,4 +1,4 @@
-package Atv05;
+
 import java.util.Scanner;
 public class Atv05_2A {
     public static void main(String[] args) {
@@ -10,5 +10,6 @@ public class Atv05_2A {
             System.out.println(num + " X " + contador + " = " + num*contador);
             contador += 1;
         }
+        batata.close();
     }
 }

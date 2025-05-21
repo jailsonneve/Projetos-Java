@@ -1,4 +1,4 @@
-package Atv06;
+
 import java.util.Scanner;
 public class Atv06_05 {
     public static void main(String[] args) {
@@ -14,5 +14,6 @@ public class Atv06_05 {
         } else {
             System.out.println("É um triângulo escaleno.");
         }
+        batata.close();
     }
 }

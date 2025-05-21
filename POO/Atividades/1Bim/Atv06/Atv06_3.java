@@ -1,4 +1,4 @@
-package Atv06;
+
 import java.util.Scanner;
 public class Atv06_3 {
     public static void main(String[] args) {
@@ -37,5 +37,6 @@ public class Atv06_3 {
             }
         }
         System.out.println("Saida em ordem: " + menor + " " + medio + " " + maior);
+        batata.close();
     }
 }

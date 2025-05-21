@@ -1,4 +1,4 @@
-package Atv05;
+
 import java.util.Scanner;
 public class Atv05_1C {
     public static void main(String[] args) {
@@ -10,5 +10,6 @@ public class Atv05_1C {
             a = a * i;
         }
         System.out.println(a);
+        batata.close();
     }    
 }

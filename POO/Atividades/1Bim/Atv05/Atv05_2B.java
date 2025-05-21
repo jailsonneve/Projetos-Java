@@ -1,4 +1,4 @@
-package Atv05;
+
 import java.util.Scanner;
 public class Atv05_2B {
     public static void main(String[] args) {
@@ -10,6 +10,6 @@ public class Atv05_2B {
             System.out.println(num);
             num -= 1;
         }
-
+        batata.close();
     }
 }

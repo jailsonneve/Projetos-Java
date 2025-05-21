@@ -1,4 +1,3 @@
-package Atv04;
 import java.util.Scanner;
 public class Atv04_5 {
     public static void main(String[] args) {

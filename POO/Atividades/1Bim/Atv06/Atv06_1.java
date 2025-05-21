@@ -1,4 +1,4 @@
-package Atv06;
+
 import java.util.Scanner;
 public class Atv06_1 {
     public static void main(String[] args) {
@@ -14,5 +14,6 @@ public class Atv06_1 {
             float desc = 0.05f;
             System.out.println(valort-(valort*desc));
         }
+        batata.close();
     }
 }

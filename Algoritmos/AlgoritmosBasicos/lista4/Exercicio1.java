@@ -7,7 +7,7 @@ public class Exercicio1 {
         int fim = 200;
 
         while (inicio < fim) {
-            funcoesPrincipais.imprimir(String.valueOf(inicio));
+            funcoesPrincipais.imprimir("" + inicio);
             inicio++;
         }
     }

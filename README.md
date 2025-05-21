@@ -46,7 +46,9 @@ PROJETOS-JAVA/
 │      	└── 2Bim/
 │      	└── 3Bim/
 ├── Projetos/
-
+│   └── Avancado/
+│   └── Iniciante/
+│   └── Intermediario/
 ├── LICENSE
 └── README.md
 ```
@@ -55,7 +57,7 @@ PROJETOS-JAVA/
 - `Engenharia de Software/`: Materiais de apoio e exercícios organizados por bimestres sobre o tema Engenharia de Software.
 - `POO/`: Materiais de apoio e exercícios organizados por bimestres sobre o tema Programação Orientada a Objeto.
 - `funcoesPrincipais.java`: Arquivo utilitário com funções de apoio para os algoritmos básicos.
-- `Projetos`: Diretório com os projetos em desenvolvimento, ainda vazia.
+- `Projetos`: Diretório com os projetos em desenvolvimento, tendo 3 niveis (Avançado, Iniciante e Intermediario).
 
 ---
 

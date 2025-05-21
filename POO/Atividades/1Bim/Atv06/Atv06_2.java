@@ -1,4 +1,4 @@
-package Atv06;
+
 import java.util.Scanner;
 public class Atv06_2 {
     public static void main(String[] args) {
@@ -10,5 +10,6 @@ public class Atv06_2 {
         } else {
             System.out.println("o ano " + ano + " não é um ano Bissexto");
         }
+        batata.close();
     }    
 }

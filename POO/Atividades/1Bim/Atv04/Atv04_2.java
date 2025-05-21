@@ -1,5 +1,3 @@
-package Atv04;
-
 import java.util.Scanner;
 
 public class Atv04_2 {
@@ -13,5 +11,6 @@ public class Atv04_2 {
         float valorP2 = valorP-valorD;
         System.out.println("Valor do desconto: "+ valorD);
         System.out.println("Valor com o Desconto: "+ valorP2);
+        batata.close();
     }
 }

@@ -1,4 +1,4 @@
-package Atv06;
+
 import java.util.Scanner;
 public class Atv06_04 {
     public static void main(String[] args) {
@@ -10,5 +10,6 @@ public class Atv06_04 {
         } else {
             System.out.println("A letra " + letra + " é uma Consoante");
         }
+        batata.close();
     }
 }
