@@ -114,17 +114,17 @@ public class UnitConverter {
     // Em um aplicativo real, estas taxas seriam obtidas de uma API ou banco de dados.
 
     /**
-     * Taxa de câmbio simulada: 1 USD = 5.0 BRL
+     * Taxa de câmbio simulada: 1 USD = 5,65 BRL
      */
-    private static final BigDecimal USD_TO_BRL_RATE = new BigDecimal("5.00");
+    private static final BigDecimal USD_TO_BRL_RATE = new BigDecimal("5,65");
     /**
-     * Taxa de câmbio simulada: 1 EUR = 5.5 BRL
+     * Taxa de câmbio simulada: 1 EUR = 6,40 BRL
      */
-    private static final BigDecimal EUR_TO_BRL_RATE = new BigDecimal("5.50");
+    private static final BigDecimal EUR_TO_BRL_RATE = new BigDecimal("6,40");
     /**
-     * Taxa de câmbio simulada: 1 JPY = 0.035 BRL
+     * Taxa de câmbio simulada: 1 JPY = 0,039 BRL
      */
-    private static final BigDecimal JPY_TO_BRL_RATE = new BigDecimal("0.035");
+    private static final BigDecimal JPY_TO_BRL_RATE = new BigDecimal("0,039");
 
     /**
      * Converte Dólar Americano (USD) para Real Brasileiro (BRL).

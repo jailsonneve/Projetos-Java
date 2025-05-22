@@ -1,12 +1,10 @@
 package Projetos.Iniciante.ConversorUnidades;
-
-import javax.swing.*;
-import javax.swing.border.TitledBorder;
+// Importações
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import javax.swing.*;
+import javax.swing.border.TitledBorder;
 
 public class UnitConverterGUI extends JFrame {
 
