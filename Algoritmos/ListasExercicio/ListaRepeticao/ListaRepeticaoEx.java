@@ -463,6 +463,8 @@ public class ListaRepeticaoEx {
 
     }
 
+    
+
     /* Função Ex23 */
     public static String NumPerfeitos(int num){
         int soma = 0;
