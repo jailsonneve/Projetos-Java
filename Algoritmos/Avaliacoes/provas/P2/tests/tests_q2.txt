@@ -1,0 +1,21 @@
+
+java -cp bin Test somarMultiplosIntervalo 3 1 10 18
+java -cp bin Test somarMultiplosIntervalo 5 1 15 30
+java -cp bin Test somarMultiplosIntervalo 7 10 35 98
+java -cp bin Test somarMultiplosIntervalo 2 1 8 20
+java -cp bin Test somarMultiplosIntervalo 4 5 20 56
+java -cp bin Test somarMultiplosIntervalo 2 1 5 6
+java -cp bin Test somarMultiplosIntervalo 3 0 0 0
+java -cp bin Test somarMultiplosIntervalo 5 5 5 5
+java -cp bin Test somarMultiplosIntervalo 5 6 20 45
+java -cp bin Test somarMultiplosIntervalo 4 1 9 12
+java -cp bin Test somarMultiplosIntervalo 6 6 18 36
+java -cp bin Test somarMultiplosIntervalo 7 1 6 0
+java -cp bin Test somarMultiplosIntervalo 1 1 10 55
+java -cp bin Test somarMultiplosIntervalo 8 8 16 24
+java -cp bin Test somarMultiplosIntervalo 9 10 50 126
+java -cp bin Test somarMultiplosIntervalo 12 5 30 36
+java -cp bin Test somarMultiplosIntervalo 15 1 100 315
+java -cp bin Test somarMultiplosIntervalo 20 0 100 300
+java -cp bin Test somarMultiplosIntervalo 10 1 9 0
+java -cp bin Test somarMultiplosIntervalo 25 25 75 150

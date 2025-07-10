@@ -1,5 +1,8 @@
 import Aulas.*;
-import ListasExercicio.ListaRepeticao.*;
+import Avaliacoes.provas.Rec2A.*;
+
+
+
 public class Main {
     public static void main(String[] args) {
         /* Aulas */ 
@@ -8,6 +11,10 @@ public class Main {
         // Aula04.ex01();
         // Aula06.bee1113();
         // Aula06.bee1071();
+        // Aula08.aula();
+        // Aula09.ex04();
+        // Aula10.ex01();
+        // Aula11.ex01();
         
         /* Lista Repetição */ 
 
@@ -34,12 +41,21 @@ public class Main {
         // ListasExercicio.ListaRepeticao.ListaRepeticaoEx.ex21();
         // ListasExercicio.ListaRepeticao.ListaRepeticaoEx.ex22();
         // ListasExercicio.ListaRepeticao.ListaRepeticaoEx.ex23();
+        // ListasExercicio.ListaRepeticao.ListaRepeticaoEx.ex24();
+        // ListasExercicio.ListaRepeticao.ListaRepeticaoEx.ex25();
+        // ListasExercicio.ListaRepeticao.ListaRepeticaoEx.ex26();
+        // ListasExercicio.ListaRepeticao.ListaRepeticaoEx.ex27();
         
         /* Simulado 2Bim */
 
         // Aulas.SimuladoProva.ex01();
         // Aulas.SimuladoProva.ex02();
         // Aulas.SimuladoProva.ex03();
+
+        /* Questões de Recuperação */
+        // Q1.somarPrimosIntervalo();
+        // Q2.ex01();
+        // Q3.ex01();
 
     }
 }

@@ -1,6 +1,8 @@
 package ListasExercicio.ListaRepeticao;
 
 import Utils.IO;
+import java.util.ArrayList;
+
 
 public class ListaRepeticaoEx {
     
@@ -456,30 +458,109 @@ public class ListaRepeticaoEx {
         int num = IO.lerInt("Digite o número: ");
 
         // Processamento
-        String resultado = NumPerfeitos(num);
+        boolean resultado = numPerfeitos(num);
         
         // Saída
         IO.imprimirString("O número " + num + " é perfeito? " + resultado);
 
     }
 
-    
+    public static void ex24() {
+        int num = IO.lerInt("Digite o Número");
+        int resp = proxPerfeito(num);
+        IO.imprimirString("O Próximo Número Perfeito é: " + resp);
+    }
 
-    /* Função Ex23 */
-    public static String NumPerfeitos(int num){
+    public static void ex25(){
+        int inicio, fim;
+        inicio = IO.lerInt("Digite o Primeiro Valor: ");
+        fim = IO.lerInt("Digite o Segundo Valor: ");
+        StringBuilder valores = new StringBuilder();
+        boolean temPerfeito = false;
+
+        if (inicio > fim) {
+            int aux = inicio;
+            inicio = fim;
+            fim = aux;
+        }
+
+        for (int i = inicio; i <= fim; i++) {
+            if (numPerfeitos(i)) {
+                valores.append(i).append("\n");
+                temPerfeito = true;
+            }
+        }
+
+        if (!temPerfeito) {
+            IO.imprimirString("Não Existem Número Perfeitos no Intervalo Definido");
+        }
+
+        IO.imprimirString("\n==== Valores Encontrados ====\n");
+        IO.imprimirString(valores.toString());
+    }
+    public static void ex26() {
+        
+        // Entradas
+        int num = IO.lerInt("Digite o Número: ");
+        ArrayList<Integer> valores = new ArrayList<Integer>();
+        
+        // Processamento
+        for (int i = 0; i < num; i++) {
+            if (i == 0 || i == 1) {
+                valores.add(1); // Começa com 1 e 1
+            } else {
+                valores.add(valores.get(i - 1) + valores.get(i - 2)); // usar get para acessar ArrayList
+            }
+        }
+        
+        // Saida
+        IO.imprimirArrayListInt(valores);
+    }
+
+    public static void ex27(){
+        int num = IO.lerInt("Digite o Número");
+
+        if (num < 2) {
+            System.out.println(num + " não é um número primo.");
+        } else {
+            if (primo(num)) {
+                System.out.println(num + " é um número primo.");
+            } else {
+                System.out.println(num + " não é um número primo.");
+            }
+        }
+    }
+
+    /* Função Ex27 */
+    public static boolean primo(int num){
+        for (int i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i == 0) {
+                return false; // encontrou divisor, não é primo
+            }
+        }
+        return true; // nenhum divisor encontrado, é primo
+    }
+    
+    /* Função Ex24 */
+    public static int proxPerfeito(int num) {
+        int contador = num;
+        while (!numPerfeitos(contador)) {
+            contador++;
+        }
+        return contador;
+    }
+    
+    /* Função Ex23, Ex24 e Ex25*/
+    public static boolean numPerfeitos(int num) {
         int soma = 0;
         for (int i = 1; i < num; i++) {
             if (num % i == 0) {
                 soma += i;
             }
         }
-        if (soma == num) {
-            return "Verdadeiro.";
-        } else {
-            return "Falso.";
-            
-        }
+        return soma == num;
     }
+    
 
     /* Funções Ex07 */
     public static int somaPares(int inicio, int fim) {

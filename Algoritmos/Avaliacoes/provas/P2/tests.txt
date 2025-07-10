@@ -1,0 +1,15 @@
+java -cp bin Test calcularPotencia 2 3 8
+java -cp bin Test calcularPotencia 5 0 1
+java -cp bin Test calcularPotencia 3 4 81
+java -cp bin Test somarMultiplosIntervalo 3 1 10 18
+java -cp bin Test somarMultiplosIntervalo 5 1 15 30
+java -cp bin Test somarMultiplosIntervalo 7 10 35 98
+java -cp bin Test inverterDigitos 123 321
+java -cp bin Test inverterDigitos 4500 54
+java -cp bin Test inverterDigitos 9876 6789
+java -cp bin Test somarPrimosIntervalo 1 10 17
+java -cp bin Test somarPrimosIntervalo 8 12 11
+java -cp bin Test somarPrimosIntervalo 20 30 52
+java -cp bin Test obterEnesimoPrimo 1 2
+java -cp bin Test obterEnesimoPrimo 5 11
+java -cp bin Test obterEnesimoPrimo 10 29
