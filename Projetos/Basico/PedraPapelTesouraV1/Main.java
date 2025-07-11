@@ -1,4 +1,3 @@
-package Projetos.Iniciante.PedraPapelTesouraV1;
 // Importações
 import java.io.Console; // Importa a classe Console para entrada oculta
 import java.util.InputMismatchException;
