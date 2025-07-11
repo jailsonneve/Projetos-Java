@@ -1,5 +1,5 @@
 package Projetos.Avançado.APIRestFulSpringBoot;
 
-public class APISpringBoot {
+public class Main {
     
 }

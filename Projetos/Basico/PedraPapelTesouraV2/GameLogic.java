@@ -13,22 +13,22 @@ public class GameLogic {
     private Random random;
 
     public GameLogic() {
-        playerScore = 0;
-        computerScore = 0;
-        random = new Random();
+        this.playerScore = 0;
+        this.computerScore = 0;
+        this.random = new Random();
     }
 
     public int getPlayerScore() {
-        return playerScore;
+        return this.playerScore;
     }
 
     public int getComputerScore() {
-        return computerScore;
+        return this.computerScore;
     }
 
     public void resetScores() {
-        playerScore = 0;
-        computerScore = 0;
+        this.playerScore = 0;
+        this.computerScore = 0;
     }
 
     /**
@@ -51,12 +51,15 @@ public class GameLogic {
         }
 
         switch (playerChoice) {
-            case PEDRA:
+            case PEDRA -> {
                 return (computerChoice == Choice.TESOURA) ? 1 : -1;
-            case PAPEL:
+            }
+            case PAPEL -> {
                 return (computerChoice == Choice.PEDRA) ? 1 : -1;
-            case TESOURA:
+            }
+            case TESOURA -> {
                 return (computerChoice == Choice.PAPEL) ? 1 : -1;
+            }
         }
         return 0; // Isso não deve acontecer
     }
@@ -67,9 +70,9 @@ public class GameLogic {
      */
     public void updateScores(int result) {
         if (result == 1) {
-            playerScore++;
+            this.playerScore++;
         } else if (result == -1) {
-            computerScore++;
+            this.computerScore++;
         }
     }
 }

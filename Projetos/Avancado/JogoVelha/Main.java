@@ -1,5 +1,5 @@
 package Projetos.Avançado.JogoVelha;
 
-public class JogoVelha {
+public class Main {
     
 }

@@ -1,5 +1,5 @@
 package Projetos.Avançado.ChatSockets;
 
-public class ChatSockets {
+public class Main {
     
 }
