@@ -1,5 +1,5 @@
 package Projetos.Intermediario.AgendaContatos;
 
-public class AgendaContatos {
+public class Main {
     
 }

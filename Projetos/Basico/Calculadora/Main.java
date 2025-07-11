@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
-public class Calculadora extends JFrame implements ActionListener {
+public class Main extends JFrame implements ActionListener {
 
     // Componentes da interface
     private JTextField display;

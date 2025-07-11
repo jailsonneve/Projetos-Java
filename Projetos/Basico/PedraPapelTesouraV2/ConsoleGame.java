@@ -1,4 +1,4 @@
-package Projetos.Iniciante.JogoForca2;
+package Projetos.Iniciante.PedraPapelTesouraV2;
 // Importações
 import java.util.InputMismatchException;
 import java.util.Scanner;

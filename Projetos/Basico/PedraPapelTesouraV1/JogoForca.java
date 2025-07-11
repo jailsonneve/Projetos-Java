@@ -1,10 +1,10 @@
-package Projetos.Iniciante.JogoForca;
+package Projetos.Iniciante.PedraPapelTesouraV1;
 // Importações
 import java.io.Console; // Importa a classe Console para entrada oculta
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class JogoForca {
+public class Main {
 
     public static void Menu() {
         System.out.println("---------------------------");

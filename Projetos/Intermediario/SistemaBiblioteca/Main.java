@@ -1,6 +1,6 @@
 package Projetos.Intermediario.SistemaBiblioteca;
 
-public class SistemaBiblioteca {
+public class Main {
 
     
 }
